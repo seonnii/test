@@ -1,0 +1,16 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+a{text-decoration:none; color:inherit;}
+li,ul,ol{list-style:none;}
+button{border:none; cursor: pointer;}
+input{font-size:16px;}
+input:focus{outline:none;}
+
+/* animation */
+.instar_animation{width:100%; height:100vh; position: absolute; top:0; left:0; z-index: 10000; background: #fff; animation: instar 1s linear 0s 1 normal forwards; }
+.instar_animation>img{width:100px; position: absolute; top:0; left:0; bottom:0; right:0; margin: auto;}
+
+@keyframes instar {
+    0%{display: block;}
+    100%{display: none;}
+}
